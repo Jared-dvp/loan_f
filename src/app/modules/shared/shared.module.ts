@@ -5,13 +5,15 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
 import { ToolbarComponent } from './components/toolbar/toolbar.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { ButtonComponent } from './components/button/button.component';
 
 
 
 @NgModule({
   declarations: [
     ToolbarComponent,
-    FooterComponent
+    FooterComponent,
+    ButtonComponent
   ],
   imports: [
     CommonModule,
@@ -21,7 +23,8 @@ import { FooterComponent } from './components/footer/footer.component';
   ],
   exports: [
     ToolbarComponent,
-    FooterComponent
+    FooterComponent,
+    ButtonComponent
   ]
 })
 export class SharedModule { }
