@@ -1,0 +1,23 @@
+.container {
+   max-width: 1200px;
+   margin: 0 auto;
+   padding: 20px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome {
+    margin-right: 300px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 90px;
+}
+
+.description {
+    margin-right: 100px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+}
