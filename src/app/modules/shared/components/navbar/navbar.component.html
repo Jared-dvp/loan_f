@@ -1,0 +1,11 @@
+<nav>
+    <ul class="navbar">
+      <li *ngFor="let link of links">
+        <a [href]="link.anchor" *ngIf="link.anchor.startsWith('/') else anchor">{{ link.label }}</a>
+        <ng-template #anchor>
+          <a [href]="'#' + link.anchor">{{ link.label }}</a>
+        </ng-template>
+      </li>
+    </ul>
+  </nav>
+  
