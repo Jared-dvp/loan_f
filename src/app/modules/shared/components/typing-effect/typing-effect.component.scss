@@ -1,0 +1,17 @@
+.welcome {
+    margin-right: 180px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 85px;
+}
+
+.description {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    border-right: 3px solid; 
+    overflow: hidden; 
+    animation: blink-caret 0.75s step-end infinite; 
+}
+
+@keyframes blink-caret {
+    50% { border-color: transparent; }
+}
