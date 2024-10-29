@@ -3,17 +3,19 @@ import { CommonModule } from '@angular/common';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
-import { ToolbarComponent } from './components/toolbar/toolbar.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { ButtonComponent } from './components/button/button.component';
+import { TypingEffectComponent } from './components/typing-effect/typing-effect.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
 
 
 
 @NgModule({
   declarations: [
-    ToolbarComponent,
     FooterComponent,
-    ButtonComponent
+    ButtonComponent,
+    TypingEffectComponent,
+    NavbarComponent
   ],
   imports: [
     CommonModule,
@@ -22,9 +24,10 @@ import { ButtonComponent } from './components/button/button.component';
     MatButtonModule
   ],
   exports: [
-    ToolbarComponent,
     FooterComponent,
-    ButtonComponent
+    ButtonComponent,
+    TypingEffectComponent,
+    NavbarComponent
   ]
 })
 export class SharedModule { }

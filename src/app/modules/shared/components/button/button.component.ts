@@ -11,6 +11,5 @@ export class ButtonComponent {
 @Input() type: 'button' | 'submit' | 'reset' = 'button';
 @Input() styleType: 'primary' | 'secondary'  | 'warn' = 'primary';
 @Input() disabled: boolean = false;
-@Input() iconOnly: boolean = false; 
 @Input() size: 'small' | 'medium' | 'large' = 'medium';
 }
